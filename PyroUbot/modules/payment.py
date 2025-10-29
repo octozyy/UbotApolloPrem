@@ -23,7 +23,7 @@ async def _(client, callback_query):
             f"""
 <blockquote><b>SILAHKAN MELAKUKAN PEMBAYARAN KE NOMOR DANA OWNER</b>           
 
-DANA : ||083822176542||
+DANA : ||085814826225||
 QRIS : ||HUB. OWNER||
 <b>💬 sɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍᴋᴀɴ ʙᴜᴋᴛɪ sᴄʀᴇᴇɴsʜᴏᴛ ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴀɴᴅᴀ: {full_name}</b></blockquote>
 """,
@@ -54,7 +54,7 @@ QRIS : ||HUB. OWNER||
             )
             CONFIRM_PAYMENT.remove(get.id)
             buttons = [
-                [InlineKeyboardButton("📞 ᴏᴡɴᴇʀ", url="https://t.me/yaetiem")]
+                [InlineKeyboardButton("📞 ᴏᴡɴᴇʀ", url="https://t.me/deakvy")]
             ]
             return await bot.send_message(
                 user_id,
